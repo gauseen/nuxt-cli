@@ -1,8 +1,18 @@
 # nuxt-cli
 
-> Nuxt.js project
+> A project cli with nuxt.js
 
-## 改动：
+## Todo:
+- add axios to plugins
+- change eslint
+- add api mock
+- add config about different env
+- add UI components
+- add develop api proxy
+- unit
+- e2e
+
+## 定制：
 - html 使用 pug
 - css 使用 stylus
 
