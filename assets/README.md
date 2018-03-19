@@ -5,7 +5,7 @@ This directory contains your un-compiled assets such as LESS, SASS, or JavaScrip
 ```bash
 - assets    资源文件
    |- images 图片
-   |- js JavaScript
+   |- iconfont 字体图标
    |- stylus stylus
 ```
 More information about the usage of this directory in the documentation:

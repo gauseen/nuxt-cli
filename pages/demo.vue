@@ -4,7 +4,6 @@ section.container
         href="/demo"
     ) 发送请求
     Slider(v-model="value" range)
-
 </template>
 
 <script>

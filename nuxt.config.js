@@ -23,7 +23,7 @@ module.exports = {
 	],
 	// 全局引入的css
 	css: [
-        // 'iview/dist/styles/iview.css'
+        'iview/dist/styles/iview.css'
     ],
 	// router config
 	router: {
