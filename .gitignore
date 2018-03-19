@@ -3,6 +3,7 @@ node_modules
 
 # logs
 npm-debug.log
+package-lock.json
 
 # Nuxt build
 .nuxt
@@ -12,3 +13,6 @@ dist
 
 # mac dir
 .DS_Store
+
+# vscode
+.vscode

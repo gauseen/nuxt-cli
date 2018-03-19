@@ -1,6 +1,7 @@
 # 页面/路由
 More information: https://nuxtjs.org/guide/routing
 
+🌰：
 ```bash
 - index 首页 /
 - user  用户中心

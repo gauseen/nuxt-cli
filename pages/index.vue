@@ -13,6 +13,9 @@ section.container
 				href="https://github.com/nuxt/nuxt.js"
 				target="_blank"
 			) GitHub
+			a.button--grey(
+				href="/demo"
+			) demo
 </template>
 
 <script>

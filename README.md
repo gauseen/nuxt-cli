@@ -3,20 +3,24 @@
 > A project cli with nuxt.js
 
 ## Todo:
-- add axios to plugins
-- change eslint
-- add api mock
-- add config about different env
-- add UI components
 - add develop api proxy
+- add api mock
+- change eslint
 - unit
 - e2e
+- 个性化过度效果
 
 ## 定制：
 - html 使用 pug
 - css 使用 stylus
+- html header config
+- use axios for http request
+- use iview UI components
+- env config
 
 ## Build Setup
+
+ENV: node 8.9
 
 ``` bash
 # install dependencies
