@@ -3,6 +3,10 @@ nuxt
 </template>
 
 <style lang="stylus">
+// 全局引入iview：nuxt.config.js的css配置报错，暂时在此引入
+@import 'iview/dist/styles/iview.css'
+@import '~assets/stylus/style'
+
 html
 	font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
 	font-size: 16px

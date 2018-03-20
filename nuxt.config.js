@@ -22,9 +22,9 @@ module.exports = {
         { src: '~plugins/iview.js', ssr: true }
 	],
 	// 全局引入的css
-	css: [
-        'iview/dist/styles/iview.css'
-    ],
+	// css: [
+    //     'iview/dist/styles/iview.css'
+    // ],
 	// router config
 	router: {
 		base: '/'	// 设置应用的根url
