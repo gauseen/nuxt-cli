@@ -14,7 +14,7 @@ section.container
 				target="_blank"
 			) GitHub
 			a.button--grey(
-				href="/demo"
+				href="/nuxtTest/demo"
 			) demo
 </template>
 
