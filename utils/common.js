@@ -137,17 +137,17 @@ function resolveObj (obj, parents) {
 }
 
 // 根据各个环境配置不同变量；sit、uat测试环境；it生产环境
-/*config = {
-	it_cn: prodUrlCN,
-	it_en: prodUrlEN,
-	sit_cn: sitUrlCN,
-	sit_en: sitUrlEN,
-	uat_cn: uatUrlCN,
-	uat_en: uatUrlEN,
-	location_cn: sitUrlCN,
-	location_en: sitUrlEN,
-	lang: currentLang,
-} */
+// config = {
+// 	it_cn: prodUrlCN,
+// 	it_en: prodUrlEN,
+// 	sit_cn: sitUrlCN,
+// 	sit_en: sitUrlEN,
+// 	uat_cn: uatUrlCN,
+// 	uat_en: uatUrlEN,
+// 	location_cn: sitUrlCN,
+// 	location_en: sitUrlEN,
+// 	lang: currentLang,
+// }
 
 function configENV (config = {lang: 'cn'}) {
 	const _ENV_ = document.domain.replace(/(sit|uat|it|.{0}).*/g, '$1') || 'location'
@@ -156,11 +156,12 @@ function configENV (config = {lang: 'cn'}) {
 }
 
 // 日期格式化，举个栗子：
-/* yy-MM-dd ==> 18-01-05
-yyyy-MM-dd ==> 2018-01-05
-yyyy-MM-dd hh:mm ==> 2018-01-05 15:30
-yyyy-MM-dd hh:mm:ss ==> 2018-01-05 15:30:11
-yyyy-M-d h:m:s ==> 2018-1-5 8:8:8 */
+// yy-MM-dd ==> 18-01-05
+// yyyy-MM-dd ==> 2018-01-05
+// yyyy-MM-dd hh:mm ==> 2018-01-05 15:30
+// yyyy-MM-dd hh:mm:ss ==> 2018-01-05 15:30:11
+// yyyy-M-d h:m:s ==> 2018-1-5 8:8:8
+
 function dateFormat (date, fmt) {
 	if (!date) return
 	// iOS Android 日期兼容

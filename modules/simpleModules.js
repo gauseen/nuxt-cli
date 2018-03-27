@@ -16,7 +16,7 @@ module.exports = function nuxtProxyTable (proxyOptions) {
 		// proxy websockets
 		ws: false,
 	},
-	proxyOptions
+	proxyOptions,
 	)
 
 	const getConfigs = (o) => Object.assign({}, defaultConfig, o)
@@ -24,7 +24,7 @@ module.exports = function nuxtProxyTable (proxyOptions) {
 	Object.keys(proxyTable).forEach(context => {
 		proxys.push([
 			context,
-			getConfigs(proxyTable[context])
+			getConfigs(proxyTable[context]),
 		])
 	})
 

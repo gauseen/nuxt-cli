@@ -5,9 +5,7 @@ import { storage, getDictionary } from '~/utils/common.js'
 Vue.use(VueI18n)
 
 export default ({ app }) => {
-	console.log('i18n ... ... plugins')
 	// Set i18n instance on app
-	// This way we can use it in middleware and pages asyncData/fetch
 	const defaultLocale = storage.get('i18n') || 'cn'
 	console.log('lang: ', typeof defaultLocale)
 	window.i18n = new VueI18n({
