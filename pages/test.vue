@@ -24,14 +24,14 @@ export default {
 			const params = {
 				phone: 17621203210,
 			}
-			this.$post(`toFindSmsCode.do`, params)
+			this.$post(`toFindSms`, params)
 			.then((res) => {
 				console.log('post res: ', res)
 			})
 			.catch((err) => console.log('post err', err))
 		},
 		fetchDataGet () {
-			this.$get(`crm/memberAccount/findMemberAccountInfo.do`)
+			this.$get(`crm/memberAccount/findMemberAccountInfo`)
 			.then((res) => {
 				console.log('get res: ', res)
 			})
